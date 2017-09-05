@@ -1,7 +1,7 @@
 {
-  "name": "webpack-sftp-client",
+  "name": "webpack-sftp-upload",
   "version": "1.2.1",
-  "description": "a plugin for webpack as an sftp client",
+  "description": "A plugin used to upload files with webpack.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
