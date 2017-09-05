@@ -8,20 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sqhtiamo/webpack-sftp-client.git"
+    "url": "git+https://github.com/scrawfor/webpack-sftp-client.git"
   },
   "keywords": [
     "webpack",
     "sftp"
   ],
-  "author": "cloughzhang",
+  "author": "scrawfor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sqhtiamo/webpack-sftp-client/issues"
+    "url": "https://github.com/scrawfor/webpack-sftp-client/issues"
   },
-  "homepage": "https://github.com/sqhtiamo/webpack-sftp-client#readme",
+  "homepage": "https://github.com/scrawfor/webpack-sftp-client#readme",
   "dependencies": {
-    "scp2": "^0.5.0"
+    "scp2": "0.5.0"
   },
   "devDependencies": {}
 }

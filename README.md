@@ -2,7 +2,9 @@
 
 ## Introduction
 
-A plugin for webpack as an sftp client
+A plugin for webpack as an sftp client.
+
+Forked from [sqhtiamo](https://github.com/sqhtiamo/webpack-sftp-client/).  Resolves an issue where you cannot instantiate the plugin twice to upload two different files to two different directories.
 
 ## Installation
 
@@ -21,11 +23,6 @@ new WebpackSftpClient({
     username: 'root',
     password: 'password',
     path: './build/',
-    remotePath: '/data/website/demo/',
-    // Show details of uploading for files
-    verbose: true
+    remotePath: '/data/website/demo/'
 })
 ```
-Copyright (c) 2016 - 2017 zhangyuhang
-
-MIT (http://www.opensource.org/licenses/mit-license.php)
